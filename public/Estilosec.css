@@ -1,0 +1,32 @@
+.title2 {
+    color:coral;
+    font-size: x-large;
+    text-align: center;
+}
+
+.table {
+    font-family: Arial, sans-serif;
+    border-collapse:collapse;
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th {
+    border:1px solid#dddddd;
+    text-align:center;
+    padding:6px;
+}
+
+
+tr:nth-child(even){
+    background-color: #ddc8c8;
+}
+
+a:hover{
+    color:cornflowerblue;
+}
+
+a {
+    color: black   ;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+  <a href="/Post.html">Voltar</a>
+  
+  <h2>Posts feitos:</h2>
+  
+  <%for (var i = 0; i < Posts.length; i++){%>
+  <div>
+    <p>Nome: <%= Posts[i].db_nome %></p>
+    <p>Título: <%= Posts[i].db_titulo %></p>
+    <p>Texto: <%= Posts[i].db_post %></p>
+    <br>
+  </div>
+  <%}%>
+  
+  
+</body>
+</html>

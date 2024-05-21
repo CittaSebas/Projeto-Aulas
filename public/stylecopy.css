@@ -1,0 +1,145 @@
+/* Estilo para pagina inteira*/
+
+body {
+    background: lightgray;
+
+}
+
+/* Parte Header*/
+
+.cabecalho{
+    border: darkblue 2px solid;
+    background: bisque;
+}
+
+#imagemd {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+
+#imageme {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+.textoa {
+    text-align: center;
+    color: darkgreen;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+
+/* Parte Body */
+
+.menu {
+    text-align: center;
+    color: darkred;
+    background-color: skyblue;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+.tituloc {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 30pt;
+    margin: 8px -16px;
+}
+
+.textoc {
+    color: indigo;
+    text-align: center;
+    font-family: SansSerif;
+    font-size: 20pt;
+}
+
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    margin-left: 278px;
+    display: inline;
+    height: 256px;
+    width: 256px;
+}
+
+@media screen and(max-width: 600px) {
+    .imagens {
+        width:33%;
+    }
+}
+iframe{
+    margin-left: 450px;
+    height: 256px;
+    width: 256px;
+}
+
+    @media screen and(max-width: 600px) {
+        iframe {
+            width:33%;
+        }
+}
+
+#titulocontatos{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+.contatos{
+    border: red 2px dashed;
+    height: 150px;
+    width: 500px;
+    margin: auto;
+}
+tr,th,td{
+    border: 1px ridge red;
+    text-align: center;
+    color: black;
+}
+
+.SPC{
+    border: 1px ridge;
+    border-color: yellow;
+    background-color: yellow;
+    margin-top: 80px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+a:hover{
+    color: cornflowerblue;
+}
+
+
+/* Parte Footer*/
+
+.footer {
+     background-color: bisque;
+    text-align: center;
+}
+#textof {
+    font-family: "Comic Sans MS";
+    font-size: 15pt;
+}
+#imagemae {
+    position: relative;
+    right: 47.5%;
+    top: 1%;
+
+}
+#imagemad {
+    position: relative;
+    left: 47.5%;
+    top: 1%;
+}
+
+
+

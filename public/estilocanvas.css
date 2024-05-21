@@ -1,0 +1,13 @@
+body{
+    background-color: bisque;
+}
+
+#Canvitas{
+    background-color: white;
+
+}
+
+#canvas{
+    display: flex;
+    justify-content: center;
+}
